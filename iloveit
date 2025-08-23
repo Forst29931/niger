@@ -25,7 +25,7 @@ getgenv().ATConfig = {
     -- ### Pet Aging Features
     AgePets = true,
     AgeNeons = true, -- Enable if u want to make megas
-    useTinyAgePotion = true,
+    useTinyAgePotion = false,
     PetsToAge = {"Water Opossum"},
     autoFuse = true, -- Auto Convert to Neon/Mega
 
