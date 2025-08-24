@@ -2,7 +2,7 @@ getgenv().ATConfig = {
     -- ## General
     hub_key = "46234d005bd619f3772c84336d00935a", -- 2G KEY
     MainAccUsername = "Cloerrw92", -- MAIN / RECEIVER ACC
-    PetsToTrade = {"Quetzalcoatl", "Temple Friend", "Onza", "Water Opossum", "Tegu"},
+    PetsToTrade = {"Quetzalcoatl", "Temple Friend", "Onza", "Water Opossum"},
     
     -- ### Main Pet Buy Feature
     buyPet = false,
@@ -26,7 +26,7 @@ getgenv().ATConfig = {
     AgePets = true,
     AgeNeons = true, -- Enable if u want to make megas
     useTinyAgePotion = false,
-    PetsToAge = {"Ehecatl"},
+    PetsToAge = {"Water Opossum"},
     autoFuse = true, -- Auto Convert to Neon/Mega
 
     Leave = false, -- Leaves the game once trade is completed
