@@ -1,9 +1,9 @@
 getgenv().hub_key = "46234d005bd619f3772c84336d00935a"
 --auto accept and complete trades
-getgenv().autoaccept = true
+getgenv().autoaccept = false
 
 --auto trade will not work if autoaccept is true
-getgenv().autotrade = false
+getgenv().autotrade = true
 
 --The person your sending the trade to.
 getgenv().recipient = "Cloerrw92"
