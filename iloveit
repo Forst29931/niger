@@ -12,7 +12,7 @@ getgenv().trade_queue = { "pets" }
 -- { "all" }
 --{ "pets", "transport", "gifts", "pet_accessories", "strollers", "toys", "food" }
 
-getgenv().pet_kind = { "Tegu", "Chanekeh", "Water Opossum", "Quetzalcoatl", "Temple Friend", "Onza" }
+getgenv().pet_kind = { "tegu", "chanekeh", "water opossum", "quetzalcoatl", "temple friend", "onza" }
 --Choose 1 pet type example { "snorgle", "cheetah" } or "{}" for all pets.
 
 getgenv().pet_type = "ALL"
