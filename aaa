@@ -34,5 +34,4 @@ getgenv().ATConfig = {
 }
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Roleck11/2G_HUB/refs/heads/main/ROLOX_UTILITY"))()
 wait(10)
-wait(10)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Forst29931/niger/refs/heads/main/iloveit"))()
