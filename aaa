@@ -5,7 +5,7 @@ getgenv().ATConfig = {
     PetsToTrade = {"Kitty Bat", "The Black Dog"},
     
     -- ### Main Pet Buy Feature
-    buyPet = false,
+    buyPet = true,
     PetName = "The Black Dog", -- Pet Name to Buy
     CurrencyName = "Event", -- ("Bucks" / "Event" / "Social Stones")
     Cost = 43000, -- Cost of Pet
