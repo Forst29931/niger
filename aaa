@@ -1,8 +1,8 @@
 getgenv().ATConfig = {
     -- ## General
     hub_key = "46234d005bd619f3772c84336d00935a", -- 2G KEY
-    MainAccUsername = "ChicToadMaster", -- MAIN / RECEIVER ACC
-    PetsToTrade = {"Kitty Bat", "Jumping Spider", "Tarantula", "Chilling Spider", "Black Widow"},
+    MainAccUsername = "UnseenChinkaraGaming", -- MAIN / RECEIVER ACC
+    PetsToTrade = {"Kitty Bat", "The Black Dog"},
     
     -- ### Main Pet Buy Feature
     buyPet = false,
@@ -12,9 +12,9 @@ getgenv().ATConfig = {
     Quantity = 0, -- Set to 0 if you want to buy ALL
 
     -- ### Box Features
-    buyBoxes = true,
+    buyBoxes = false,
     boxName = "Spider Box",
-    openBoxes = true,
+    openBoxes = false,
 
     -- ### Bait Transfer Features
     transferBait = false,
