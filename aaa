@@ -6,9 +6,9 @@ getgenv().ATConfig = {
     
     -- ### Main Pet Buy Feature
     buyPet = false,
-    PetName = "Skelebat", -- Pet Name to Buy
+    PetName = "The Black Dog", -- Pet Name to Buy
     CurrencyName = "Event", -- ("Bucks" / "Event" / "Social Stones")
-    Cost = 76000, -- Cost of Pet
+    Cost = 43000, -- Cost of Pet
     Quantity = 0, -- Set to 0 if you want to buy ALL
 
     -- ### Box Features
