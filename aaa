@@ -1,7 +1,7 @@
 getgenv().ATConfig = {
     -- ## General
     hub_key = "46234d005bd619f3772c84336d00935a", -- 2G KEY
-    MainAccUsername = "FloorHippo000", -- MAIN / RECEIVER ACC
+    MainAccUsername = "INormalGrysbok131", -- MAIN / RECEIVER ACC
     PetsToTrade = {"Kitty Bat", "The Black Dog"},
     
     -- ### Main Pet Buy Feature
