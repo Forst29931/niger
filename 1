@@ -2,13 +2,13 @@ getgenv().ATConfig = {
     -- ## General
     hub_key = "46234d005bd619f3772c84336d00935a", -- 2G KEY
     MainAccUsername = "RamSamurai2024", -- MAIN / RECEIVER ACC
-    PetsToTrade = {"DJ Snooze"},
+    PetsToTrade = {"Ghostly Cat", "Kitty Bat"},
     
     -- ### Main Pet Buy Feature
     buyPet = true,
-    PetName = "DJ Snooze", -- Pet Name to Buy
+    PetName = "Ghostly Cat", -- Pet Name to Buy
     CurrencyName = "Event", -- ("Bucks" / "Event" / "Social Stones")
-    Cost = 44000, -- Cost of Pet
+    Cost = 70000, -- Cost of Pet
     Quantity = 0, -- Set to 0 if you want to buy ALL
 
     -- ### Box Features
@@ -23,7 +23,7 @@ getgenv().ATConfig = {
     SmartBuy = false, -- EXPERIMENTAL FEATURE [PETS]
 
     -- ### Pet Aging Features
-    AgePets = true,
+    AgePets = false,
     AgeNeons = false, -- Enable if u want to make megas
     useTinyAgePotion = false,
     PetsToAge = {"DJ Snooze"},
@@ -33,14 +33,3 @@ getgenv().ATConfig = {
     LeaveDelay = 120 -- Delay in seconds to wait before leaving
 }
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Roleck11/2G_HUB/refs/heads/main/ROLOX_UTILITY"))()
-wait(10)
-task.spawn(function()
-    getgenv().Config = {
-        ["inventory"] = "pets", -- Adapt to stickers, gifts, toys, pet_accessories, transport, gifts
-        ["username"] = "CaucasianChief3919",
-        ["pets_to_trade"] = {"halloween_2025_dj_snooze","halloween_2025_bat_cat"} -- or lures_2023_blazing_lion cant auto trade gifts with pet ONLY 1
-    }
-
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/diwserenityhub/other/refs/heads/main/auto_trade_wee.lua"))()
-end)
-
